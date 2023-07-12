@@ -1,6 +1,6 @@
-project(IA-CPR)
+project(IA-TQ)
 cmake_minimum_required(VERSION 3.26)
 set(CMAKE_C_STANDARD 23)
 set(CMAKE_CXX_STANDARD 23)
-aux_source_directory(./src SRC)
+aux_source_directory(src SRC)
 add_executable(main ${SRC})
